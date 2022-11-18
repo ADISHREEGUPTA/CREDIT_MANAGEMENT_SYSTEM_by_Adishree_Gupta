@@ -1,0 +1,81 @@
+#SQL DATABASE CREATION
+
+use world;
+
+create table profile
+(Profile_ID varchar(100),
+Name varchar(30),
+Email_Id varchar(50),
+ADDRESS varchar(50),
+PHONE varchar(11),
+CLASS varchar(2));
+
+create table class_9_details
+(name varchar(30),
+age varchar(30),
+class varchar(30));
+
+create table class_10_details
+(name varchar(30),
+age varchar(30),
+class varchar(30));
+
+create table class_11_details
+(name varchar(30),
+age varchar(30),
+class varchar(30));
+
+create table class_12_details
+(name varchar(30),
+age varchar(30),
+class varchar(30));
+
+create table student_9_credits
+(name varchar(30),
+credits varchar(30));
+
+create table student_10_credits
+(name varchar(30),
+credits varchar(30));
+
+create table student_11_credits
+(name varchar(30),
+credits varchar(30));
+
+create table student_12_credits
+(name varchar(30),
+credits varchar(30));
+
+use credit_management_system
+
+create table user
+(f_name varchar(30),
+l_name varchar(30),
+contact varchar(10),
+username varchar(30),
+date_of_birth varchar(11),
+password varchar(30));
+
+create table admin
+(f_name varchar(30),
+l_name varchar(30),
+contact varchar(10),
+username varchar(30),
+date_of_birth varchar(11),
+password varchar(30));
+
+create table student
+(f_name varchar(30),
+l_name varchar(30),
+contact varchar(10),
+username varchar(30),
+date_of_birth varchar(11),
+password varchar(30));
+
+create table teacher
+(f_name varchar(30),
+l_name varchar(30),
+contact varchar(10),
+username varchar(30),
+date_of_birth varchar(11),
+password varchar(30));
